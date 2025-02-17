@@ -29,7 +29,7 @@ Download the dataset from the provided source. It contains four datasets:
 
 Follow the steps below to run the code in the correct order:
 
-### 1. **Install Python and Third-Party Libraries**
+### **Install Python and Third-Party Libraries**
 Before running the code, ensure that **Python 3.11.11** is installed. If necessary, update to this version.
 
 Install the required libraries by running the following command in your terminal:
