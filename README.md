@@ -1,5 +1,5 @@
 
-# ADHD Diagnosis and Sex Prediction
+# Brain activity pattern differences in ADHD
 ## Project Overview
 
 This project aims to develop a model to predict ADHD diagnosis and sex in children and adolescents using functional brain imaging data and socio-demographic information. Special attention is given to ensuring that the model avoids gender bias, as girls are often underdiagnosed with ADHD. The model should also be explainable, using methods like SHAP or LIME, to meet GDPR requirements. The data includes four datasets: `Metadata_A`, `Metadata_B`, `Func`, and `label`.
