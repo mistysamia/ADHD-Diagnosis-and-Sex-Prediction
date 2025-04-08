@@ -44,21 +44,22 @@ pip install numpy==1.26.4 pandas==2.2.2 scikit-learn==1.4.2 seaborn==0.13.2 knee
 2. Install the required libraries.
 
 ### Data Exploraion and Preprocessing 
-1. Load the notebook ``sm23788_Data_Exploration.ipynb``.
-2. Download the dataset and place it in the specified directory.
+3. Load the notebook ``sm23788_Data_Exploration.ipynb``.
+4. Download the dataset and place it in the specified directory.
    - Ensure the dataset files (e.g., `Metadata_A`, `Metadata_B`, `Func`, `Label`) are located in the correct directory.
-3. **Update the paths**:
+5. **Update the paths**:
       - **`data_path`**: This is the path where you load the dataset. Update the notebook with the correct file path where the raw data is stored.
       - **`preprocessed_data_path`**: This is the path where the preprocessed (cleaned) data will be saved after processing. Update the notebook with the correct file path where the preprocessed data should be stored (e.g., `preprocessed_dataset.csv`).
-4. Run ``sm23788_Data_Exploration.ipynb`` and start the analysis.
-5. After running the setup, the clean (preprocessed) dataset will be generated and saved in the specified `preprocessed_data_path`. The following files will be saved:
+6. Run ``sm23788_Data_Exploration.ipynb`` and start the analysis.
+7. After running the setup, the clean (preprocessed) dataset will be generated and saved in the specified `preprocessed_data_path`. The following files will be saved:
    - `X_train.csv`: Training features
    - `X_test.csv`: Testing features
    - `y_train.csv`: Training labels
    - `y_test.csv`: Testing labels
 
 ### Modelling and testing :
-1. Load the notebook ``sm23788_Modelling_Result.ipynb``.
-2. **Update the path**:
+8. Load the notebook ``sm23788_Modelling_Result.ipynb``.
+9. **Update the path**:
       - **`data_path`**: This is the path where you saved preprocessed dataset. Update the notebook with the correct file path where the raw data is stored.
-3. Run ``sm23788_Modelling_Result.ipynb`` and start the analysis.
+10. Run ``sm23788_Modelling_Result.ipynb`` and start the analysis.
+
