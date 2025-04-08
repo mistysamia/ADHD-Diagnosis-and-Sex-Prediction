@@ -24,6 +24,7 @@ Download the dataset from the provided source. It contains four datasets:
 6. SciPy: 1.13.1
 7. Plotly: 5.24.1
 8. Matplotlib: 3.10.0
+9. Tensorflow: 2.15.0
 
 ## Running the Code
 
@@ -35,21 +36,29 @@ Before running the code, ensure that **Python 3.11.11** is installed. If necessa
 Install the required libraries by running the following command in your terminal:
 
 ```bash
-pip install numpy==1.26.4 pandas==2.2.2 scikit-learn==1.6.1 seaborn==0.13.2 kneed==0.8.5 scipy==1.13.1 plotly==5.24.1 matplotlib==3.10.0
+pip install numpy==1.26.4 pandas==2.2.2 scikit-learn==1.4.2 seaborn==0.13.2 kneed==0.8.5 scipy==1.13.0 plotly==5.24.1 matplotlib==3.8.4 tensorflow==2.15.0
 ```
 
 ## Setup Instructions
 1. Ensure Python version **3.11.11** is installed.
 2. Install the required libraries.
-3. Download the dataset and place it in the specified directory.
+
+### Data Exploraion and Preprocessing 
+1. Load the notebook ``sm23788_Data_Exploration.ipynb``.
+2. Download the dataset and place it in the specified directory.
    - Ensure the dataset files (e.g., `Metadata_A`, `Metadata_B`, `Func`, `Label`) are located in the correct directory.
-4. **Update the paths**:
+3. **Update the paths**:
       - **`data_path`**: This is the path where you load the dataset. Update the notebook with the correct file path where the raw data is stored.
       - **`preprocessed_data_path`**: This is the path where the preprocessed (cleaned) data will be saved after processing. Update the notebook with the correct file path where the preprocessed data should be stored (e.g., `preprocessed_dataset.csv`).
-5. Run the setup and start the analysis.
-6. After running the setup, the clean (preprocessed) dataset will be generated and saved in the specified `preprocessed_data_path`. The following files will be saved:
+4. Run ``sm23788_Data_Exploration.ipynb`` and start the analysis.
+5. After running the setup, the clean (preprocessed) dataset will be generated and saved in the specified `preprocessed_data_path`. The following files will be saved:
    - `X_train.csv`: Training features
    - `X_test.csv`: Testing features
    - `y_train.csv`: Training labels
    - `y_test.csv`: Testing labels
 
+### Modelling and testing :
+1. Load the notebook ``sm23788_Modelling_Result.ipynb``.
+2. **Update the path**:
+      - **`data_path`**: This is the path where you saved preprocessed dataset. Update the notebook with the correct file path where the raw data is stored.
+3. Run ``sm23788_Modelling_Result.ipynb`` and start the analysis.
