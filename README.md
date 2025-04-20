@@ -1,3 +1,4 @@
+
 # Brain activity pattern differences in ADHD
 ## Project Overview
 
@@ -59,6 +60,6 @@ pip install numpy==1.26.4 pandas==2.2.2 scikit-learn==1.4.2 seaborn==0.13.2 knee
 ### Modelling and testing :
 8. Load the notebook ``sm23788_Modelling_Result.ipynb``.
 9. **Update the path**:
-      - **`data_path`**: This is the path where you saved preprocessed dataset(`preprocessed_data_path`). Update the notebook with the correct file path where the raw data is stored.
+      - **`data_path`**: This is the path where you saved preprocessed dataset(`preprocessed_data_path`). Update the notebook with the correct file path where the preprocessed data is stored.
 10. Run ``sm23788_Modelling_Result.ipynb`` and start the analysis.
 
