@@ -1,4 +1,3 @@
-
 # Brain activity pattern differences in ADHD
 ## Project Overview
 
